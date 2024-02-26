@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 3316283424829911233}
   - component: {fileID: 3485804818868956158}
   - component: {fileID: 4302661404159844136}
+  - component: {fileID: 855161958193213857}
   m_Layer: 0
   m_Name: Pizza
   m_TagString: Untagged
@@ -162,3 +163,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10, y: 10}
   m_EdgeRadius: 0
+--- !u!114 &855161958193213857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6442359816527893115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb118ad4d3298b468f3b276354d8eb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
