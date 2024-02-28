@@ -175,3 +175,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adb118ad4d3298b468f3b276354d8eb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cantidadPizzas: 1
+  PuntajePizzas: {fileID: 0}

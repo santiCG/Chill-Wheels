@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private AmountPizzas PuntajePizzas;
 
     public float speed = 100f;
     public float JumpHeight;
     public bool InAir = false;
-
-    int pizzas;
 
     private Rigidbody2D rb2d;
 
@@ -39,12 +38,10 @@ public class PlayerController : MonoBehaviour
                 rb2d.AddForce(new Vector2(0, JumpHeight * 1.5f), ForceMode2D.Impulse);
             }
         }
-
-        Debug.Log("Contador de pizzas: " + pizzas);
     }
 
-    public void ContadorPizzas(int amount)
+    public void ContadorPizzas(float amount)
     {
-        pizzas += amount;
+        PuntajePizzas.SumarPizzas(amount);
     }
 }
