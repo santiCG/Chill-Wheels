@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -31,7 +32,7 @@ public class PlayerController : MonoBehaviour
 
         rb2d.velocity = new Vector2(speed, rb2d.velocity.y);
         
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Mouse0))
         {
             if (InAir == false)
             {
