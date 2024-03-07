@@ -9,7 +9,7 @@ public class Horno_Pizza : MonoBehaviour
     void Start()
     {
         descripcion.SetActive(false);
-        Debug.Log("AAA");
+        
     }
 
     // Update is called once per frame
@@ -25,18 +25,9 @@ public class Horno_Pizza : MonoBehaviour
         Debug.Log("salida mouse");
     }
 
-    private void OnMouseDown()
-    {
+   
 
-
-        Debug.Log("se detecto click");
-    }
-
-    private void OnMouseUpAsButton()
-    {
-        // Aquí puedes agregar cualquier otra acción que desees realizar cuando se hace clic en el elemento del canvas.
-        Debug.Log("Activar coso");
-    }
+  
 
     public void onClick()
     {
