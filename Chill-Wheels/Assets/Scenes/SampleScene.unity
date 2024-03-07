@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 83743065}
   - component: {fileID: 83743064}
   - component: {fileID: 83743063}
-  - component: {fileID: 83743062}
+  - component: {fileID: 83743066}
   - component: {fileID: 83743061}
   - component: {fileID: 83743060}
   m_Layer: 5
@@ -236,20 +236,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 74.10411, y: 54.35078}
   m_EdgeRadius: 0
---- !u!114 &83743062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 83743058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99ad356050668294a8da43fd7ea62aeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interfaz_mejoras: {fileID: 724384688}
-  Boton_normal: {fileID: 83743058}
 --- !u!114 &83743063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,8 +280,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 83743062}
-        m_TargetAssemblyTypeName: Boton_Mejoras, Assembly-CSharp
+      - m_Target: {fileID: 83743066}
+        m_TargetAssemblyTypeName: Boton_Salida, Assembly-CSharp
         m_MethodName: onClick
         m_Mode: 1
         m_Arguments:
@@ -344,6 +330,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83743058}
   m_CullTransparentMesh: 1
+--- !u!114 &83743066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83743058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57b02d036dcc6c345b54a5867dd6566b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boton_normal: {fileID: 402249786}
+  Boton_provisional: {fileID: 83743058}
+  Interfaz: {fileID: 724384688}
 --- !u!1001 &177129735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -752,6 +753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interfaz_mejoras: {fileID: 724384688}
   Boton_normal: {fileID: 402249786}
+  Boton_provisional: {fileID: 83743058}
 --- !u!114 &402249789
 MonoBehaviour:
   m_ObjectHideFlags: 0

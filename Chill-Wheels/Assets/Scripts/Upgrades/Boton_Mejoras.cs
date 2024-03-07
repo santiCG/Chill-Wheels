@@ -7,11 +7,13 @@ public class Boton_Mejoras : MonoBehaviour
 {
     public GameObject interfaz_mejoras;
     public GameObject Boton_normal;
+    public GameObject Boton_provisional;
   
 
     void Start()
     {
         interfaz_mejoras.SetActive(false);
+        Boton_provisional.SetActive(false);
         Debug.Log("AAA");
     }
 
@@ -46,6 +48,7 @@ public class Boton_Mejoras : MonoBehaviour
        
         interfaz_mejoras.SetActive(true);
         Boton_normal.SetActive(false);
+        Boton_provisional.SetActive(true);
         Debug.Log("se detecto click");
     }
 }
