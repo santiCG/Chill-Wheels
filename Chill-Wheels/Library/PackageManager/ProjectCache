@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638448681735419459
-    m_Hash: 1553693117
+      ticks: 638452875440704784
+    m_Hash: 1322497369
   m_LockFileStatus:
     m_FilePath: C:/Users/ASUS/Chill-Wheels/Chill-Wheels/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638448681735464532
-    m_Hash: 855987186
+      ticks: 638452875440734886
+    m_Hash: 2540127429
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -111,6 +111,7 @@ m_ResolvedPackages:
     - 2.9.4
     - 2.9.5
     - 2.9.7
+    - 2.10.0
     - 3.0.0-pre.3
     - 3.0.0-pre.4
     - 3.0.0-pre.5
@@ -122,6 +123,7 @@ m_ResolvedPackages:
     compatible:
     - 2.9.5
     - 2.9.7
+    - 2.10.0
     - 3.0.0-pre.3
     - 3.0.0-pre.4
     - 3.0.0-pre.5
@@ -1257,9 +1259,11 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.9.0
     - 1.9.1
+    - 1.9.2
     compatible:
     - 1.9.1
-    recommended: 1.9.1
+    - 1.9.2
+    recommended: 1.9.2
     deprecated:
     - 1.8.0-pre.1
   dependencies:
