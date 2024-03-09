@@ -9,29 +9,22 @@ public class Opcion1 : MonoBehaviour
     public GameObject Boton_Seleccionado1;
     public GameObject Boton_normal2;
     public GameObject Boton_normal3;
+    public GameObject Boton_Seleccionado2;
+    public GameObject Boton_Seleccionado3;
 
 
     void Start()
     {
-        Boton_Seleccionado1.SetActive(false);
+        Boton_Seleccionado1.SetActive(true);
+        Boton_Seleccionado2.SetActive(false);
+        Boton_Seleccionado3.SetActive(false);
         Boton_normal1.SetActive(false);
-        Boton_normal2.SetActive(false);
-        Boton_normal3.SetActive(false);
+        Boton_normal2.SetActive(true);
+        Boton_normal3.SetActive(true);
         Debug.Log("AAA");
     }
 
-    // Update is called once per frame
-    //private void OnMouseOver()
-    //{
-    //    interfaz_mejoras.SetActive(true);
-    //    Debug.Log("Deteccion mouse");
-    //}
-
-    //private void OnMouseExit()
-    //{
-    //    interfaz_mejoras.SetActive(false);
-    //    Debug.Log("salida mouse");
-    //}
+    
 
     private void OnMouseDown()
     {
@@ -50,9 +43,11 @@ public class Opcion1 : MonoBehaviour
     {
 
         Boton_Seleccionado1.SetActive(true);
+        Boton_Seleccionado2.SetActive(false);
+        Boton_Seleccionado3.SetActive(false);
         Boton_normal1.SetActive(false);
-        Boton_normal2.SetActive(false);
-        Boton_normal3.SetActive(false);
+        Boton_normal2.SetActive(true);
+        Boton_normal3.SetActive(true);
 
         Debug.Log("se detecto click");
     }
