@@ -8,12 +8,15 @@ public class Opcion1 : MonoBehaviour
     public GameObject Boton_normal1;
     public GameObject Boton_Seleccionado1;
     public GameObject Boton_normal2;
+    public GameObject Boton_normal3;
 
 
     void Start()
     {
-        interfaz_mejoras.SetActive(false);
-        Boton_normal.SetActive(false);
+        Boton_Seleccionado1.SetActive(false);
+        Boton_normal1.SetActive(false);
+        Boton_normal2.SetActive(false);
+        Boton_normal3.SetActive(false);
         Debug.Log("AAA");
     }
 
@@ -46,9 +49,11 @@ public class Opcion1 : MonoBehaviour
     public void onClick()
     {
 
-        interfaz_mejoras.SetActive(true);
-        Boton_normal.SetActive(false);
-        Boton_provisional.SetActive(true);
+        Boton_Seleccionado1.SetActive(true);
+        Boton_normal1.SetActive(false);
+        Boton_normal2.SetActive(false);
+        Boton_normal3.SetActive(false);
+
         Debug.Log("se detecto click");
     }
 }
