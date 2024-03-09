@@ -11,6 +11,8 @@ public class Opcion3 : MonoBehaviour
     public GameObject Boton_Seleccionado1;
     public GameObject Boton_Seleccionado2;
     public GameObject Boton_Seleccionado3;
+    
+
 
 
     //void Start()
@@ -48,6 +50,7 @@ public class Opcion3 : MonoBehaviour
         Boton_normal1.SetActive(true);
         Boton_normal2.SetActive(true);
         Boton_normal3.SetActive(false);
+
 
         Debug.Log("se detecto click");
     }
