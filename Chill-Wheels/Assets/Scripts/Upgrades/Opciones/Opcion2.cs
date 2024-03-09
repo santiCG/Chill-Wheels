@@ -12,6 +12,22 @@ public class Opcion2 : MonoBehaviour
     public GameObject Boton_Seleccionado2;
     public GameObject Boton_Seleccionado3;
 
+    public GameObject Horno;
+    public GameObject Granjas;
+    public GameObject Tennis;
+    public GameObject Tabla_Skate;
+    public GameObject Casco;
+
+    public GameObject Llantitas;
+    public GameObject Coderas;
+    public GameObject Rodilleras;
+    public GameObject Franquicia_Pizzas;
+    public GameObject Italianos_Enojados;
+
+    public GameObject Amuleto_Pepperoni;
+
+
+
 
     //void Start()
     //{
@@ -48,6 +64,20 @@ public class Opcion2 : MonoBehaviour
         Boton_normal1.SetActive(true);
         Boton_normal2.SetActive(false);
         Boton_normal3.SetActive(true);
+
+        Horno.SetActive(false);
+        Granjas.SetActive(false);
+        Tennis.SetActive(false);
+        Tabla_Skate.SetActive(false);
+        Casco.SetActive(false);
+
+        Llantitas.SetActive(true);
+        Coderas.SetActive(true);
+        Rodilleras.SetActive(true);
+        Franquicia_Pizzas.SetActive(true);
+        Italianos_Enojados.SetActive(true);
+
+        Amuleto_Pepperoni.SetActive(false);
 
         Debug.Log("se detecto click");
     }
