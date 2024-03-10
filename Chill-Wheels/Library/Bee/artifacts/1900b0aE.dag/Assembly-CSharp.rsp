@@ -380,6 +380,7 @@
 "Assets/Scripts/Boton_SALIR.cs"
 "Assets/Scripts/GeneradorNivel.cs"
 "Assets/Scripts/PizzaCollectible.cs"
+"Assets/Scripts/Pizzas_x_segundo.cs"
 "Assets/Scripts/PlayerControllere.cs"
 "Assets/Scripts/Upgrades/Boton_Mejoras.cs"
 "Assets/Scripts/Upgrades/Boton_Salida.cs"

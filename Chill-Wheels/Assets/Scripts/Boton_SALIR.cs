@@ -10,25 +10,24 @@ public class Boton_SALIR : MonoBehaviour
     void Start()
     {
         Boton_Salir.SetActive(false);
-        Debug.Log("AAA");
     }
 
     // Update is called once per frame
     private void OnMouseOver()
     {
         Boton_Salir.SetActive(true);
-        Debug.Log("Deteccion mouse");
+        //Debug.Log("Deteccion mouse");   
     }
 
     private void OnMouseExit()
     {
         Boton_Salir.SetActive(false);
-        Debug.Log("salida mouse");
+        //Debug.Log("salida mouse");
     }
 
     private void OnMouseDown()
     {
         Application.Quit();
-        Debug.Log("salida programa");
+        //Debug.Log("salida programa");
     }
 }

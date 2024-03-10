@@ -11,7 +11,6 @@ public class Boton_Jugar : MonoBehaviour
     void Start()
     {
         Boton_jugar.SetActive(false);
-        Debug.Log("AAA");
     }
 
     // Update is called once per frame

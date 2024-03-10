@@ -36,22 +36,19 @@ public class Opcion1 : MonoBehaviour
         Boton_normal1.SetActive(false);
         Boton_normal2.SetActive(true);
         Boton_normal3.SetActive(true);
-        Debug.Log("AAA");
     }
 
     
 
     private void OnMouseDown()
     {
-
-
-        Debug.Log("se detecto click");
+        //Debug.Log("se detecto click");
     }
 
     private void OnMouseUpAsButton()
     {
         // Aquí puedes agregar cualquier otra acción que desees realizar cuando se hace clic en el elemento del canvas.
-        Debug.Log("Activar coso");
+        //Debug.Log("Activar coso");
     }
 
     public void onClick()
@@ -81,6 +78,6 @@ public class Opcion1 : MonoBehaviour
         Amuleto_Pepperoni.SetActive(false);
 
 
-        Debug.Log("se detecto click");
+        //Debug.Log("se detecto click");
     }
 }

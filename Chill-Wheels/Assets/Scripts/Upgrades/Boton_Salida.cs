@@ -25,6 +25,6 @@ public class Boton_Salida : MonoBehaviour
         boton_normal.SetActive(true);
         Boton_provisional.SetActive(false);
         Interfaz.SetActive(false);
-        Debug.Log("se detecto click");
+        //Debug.Log("se detecto click");
     }
 }

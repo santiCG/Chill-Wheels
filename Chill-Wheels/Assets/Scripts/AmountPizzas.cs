@@ -19,8 +19,14 @@ public class AmountPizzas : MonoBehaviour
         _textMeshPro.text = pizzas.ToString("0");
     }
 
+    public float Pizzas
+    {
+        get { return pizzas; }
+        set { pizzas = value; }
+    }
+
     public void SumarPizzas (float cantidadPizzas)
     {
-        pizzas += cantidadPizzas;
+        Pizzas += cantidadPizzas;
     }
 }
