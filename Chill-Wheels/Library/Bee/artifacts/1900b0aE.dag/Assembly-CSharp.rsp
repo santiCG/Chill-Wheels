@@ -389,6 +389,8 @@
 "Assets/Scripts/Upgrades/Opciones/Opcion1.cs"
 "Assets/Scripts/Upgrades/Opciones/Opcion2.cs"
 "Assets/Scripts/Upgrades/Opciones/Opcion3.cs"
+"Assets/Scripts/Upgrades/Opciones/Opciones_upgrades/Op1_Upgrade.cs"
+"Assets/Scripts/Upgrades/Opciones/Opciones_upgrades/Op2_Upgrade.cs"
 "Assets/Scripts/Upgrades/Tabla_skate.cs"
 "Assets/Scripts/Upgrades/Tennis.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
