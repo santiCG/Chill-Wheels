@@ -2541,7 +2541,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Necesitas al menos una!\nM\xE1s +10 p/s\r\n"
+  m_text: "\xBFLe echaste pi\xF1a a la pizza?\nM\xE1s +200 p/s\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3327,7 +3327,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "La proteccion  siempre es buena ;)\nM\xE1s +35 p/s\r\n"
+  m_text: "La proteccion  siempre es buena ;)\nM\xE1s +20 p/s\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8250,11 +8250,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5854472106019823630, guid: 83728132019fa8d42838a7aee3269099, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.1015863
+      value: 6.108152
       objectReference: {fileID: 0}
     - target: {fileID: 5854472106019823630, guid: 83728132019fa8d42838a7aee3269099, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.1288803
+      value: 3.128717
       objectReference: {fileID: 0}
     - target: {fileID: 5854472106019823630, guid: 83728132019fa8d42838a7aee3269099, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10801,7 +10801,7 @@ Transform:
   m_GameObject: {fileID: 2101877549}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.6656666, y: -0.28040028, z: -10}
+  m_LocalPosition: {x: -6.6651945, y: -0.28040028, z: -10}
   m_LocalScale: {x: 0.63937, y: 0.63937, z: 0.63937}
   m_ConstrainProportionsScale: 0
   m_Children:
